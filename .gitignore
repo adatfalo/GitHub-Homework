@@ -1,0 +1,21 @@
+# Általános ignorált fájlok
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+dist/
+target/
+
+# Docker fájlok és konténerek
+*.log
+docker-compose.override.yml
+.env
+__pycache__/
+*.pyc
+.cache/
+tmp/
+*.swp
+
+# GitHub Actions cache és build fájlok
+.github/workflows/*.log
+.github/workflows/*.cache
